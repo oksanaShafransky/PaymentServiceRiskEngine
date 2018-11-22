@@ -1,6 +1,6 @@
 com/payment/service/riskengine/config/DataSourceConfig.class
+com/payment/service/riskengine/config/PaymentKafkaReceiver.class
 com/payment/service/riskengine/config/ReceiverConfig.class
-com/payment/service/riskengine/riskengine/RiskValidator.class
 com/payment/service/riskengine/config/PaymentDeserializer.class
-com/payment/service/riskengine/config/Receiver.class
+com/payment/service/riskengine/riskengine/PaymentRiskValidator.class
 com/payment/service/riskengine/PaymentRiskEngineApplication.class

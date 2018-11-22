@@ -1,6 +1,6 @@
-/Users/oksanas/Documents/payment-server/riskengine/src/main/java/com/payment/service/riskengine/riskengine/RiskValidator.java
+/Users/oksanas/Documents/payment-server/riskengine/src/main/java/com/payment/service/riskengine/config/PaymentKafkaReceiver.java
+/Users/oksanas/Documents/payment-server/riskengine/src/main/java/com/payment/service/riskengine/riskengine/PaymentRiskValidator.java
 /Users/oksanas/Documents/payment-server/riskengine/src/main/java/com/payment/service/riskengine/config/ReceiverConfig.java
-/Users/oksanas/Documents/payment-server/riskengine/src/main/java/com/payment/service/riskengine/config/Receiver.java
 /Users/oksanas/Documents/payment-server/riskengine/src/main/java/com/payment/service/riskengine/config/DataSourceConfig.java
 /Users/oksanas/Documents/payment-server/riskengine/src/main/java/com/payment/service/riskengine/config/PaymentDeserializer.java
 /Users/oksanas/Documents/payment-server/riskengine/src/main/java/com/payment/service/riskengine/PaymentRiskEngineApplication.java

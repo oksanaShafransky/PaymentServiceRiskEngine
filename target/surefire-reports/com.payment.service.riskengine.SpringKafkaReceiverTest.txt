@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.payment.service.riskengine.SpringKafkaReceiverTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 82.788 s <<< FAILURE! - in com.payment.service.riskengine.SpringKafkaReceiverTest
+testReceive(com.payment.service.riskengine.SpringKafkaReceiverTest)  Time elapsed: 62.552 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[2]> but was:<[1]>
+	at com.payment.service.riskengine.SpringKafkaReceiverTest.setUp(SpringKafkaReceiverTest.java:67)
+

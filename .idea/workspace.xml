@@ -41,52 +41,68 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Receiver.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/payment/service/riskengine/config/Receiver.java">
+      <file leaf-file-name="PaymentKafkaReceiver.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/payment/service/riskengine/config/PaymentKafkaReceiver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+            <state relative-caret-position="81">
+              <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#874#875#0" expanded="true" />
-                <element signature="e#902#903#0" expanded="true" />
+                <element signature="e#1238#1239#0" expanded="true" />
+                <element signature="e#1266#1267#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InvocableHandlerMethod.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/IdeaProjects/payment_repo/org/springframework/spring-messaging/5.1.2.RELEASE/spring-messaging-5.1.2.RELEASE.jar!/org/springframework/messaging/handler/invocation/InvocableHandlerMethod.class">
+      <file leaf-file-name="PaymentRiskValidator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/payment/service/riskengine/riskengine/PaymentRiskValidator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="120" column="0" lean-forward="false" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
+            <state relative-caret-position="81">
+              <caret line="9" column="70" lean-forward="false" selection-start-line="9" selection-start-column="70" selection-end-line="9" selection-end-column="70" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SpringKafkaReceiverTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/payment/service/riskengine/SpringKafkaReceiverTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <marker date="1542562140000" expanded="false" signature="0:104" ph="/.../" />
-                <marker date="1542562140000" expanded="false" signature="172:847" ph="..." />
-                <marker date="1542562140000" expanded="false" signature="1189:1200" ph=" { " />
-                <marker date="1542562140000" expanded="false" signature="1221:1227" ph=" }" />
-                <marker date="1542562140000" expanded="false" signature="1290:1301" ph=" { " />
-                <marker date="1542562140000" expanded="false" signature="1321:1327" ph=" }" />
-                <marker date="1542562140000" expanded="true" signature="1449:1505" ph="{...}" />
-                <marker date="1542562140000" expanded="true" signature="1615:1674" ph="{...}" />
-                <marker date="1542562140000" expanded="true" signature="1768:1839" ph="{...}" />
-                <marker date="1542562140000" expanded="true" signature="1941:2532" ph="{...}" />
-                <marker date="1542562140000" expanded="true" signature="2642:3842" ph="{...}" />
-                <marker date="1542562140000" expanded="true" signature="3921:4098" ph="{...}" />
-                <marker date="1542562140000" expanded="true" signature="4208:4542" ph="{...}" />
-                <marker date="1542562140000" expanded="true" signature="4621:5778" ph="{...}" />
-                <marker date="1542562140000" expanded="true" signature="5863:6455" ph="{...}" />
-                <marker date="1542562140000" expanded="true" signature="6538:7109" ph="{...}" />
-                <marker date="1542562140000" expanded="true" signature="7169:7500" ph="{...}" />
-                <marker date="1542562140000" expanded="true" signature="7576:7666" ph="{...}" />
-                <marker date="1542562140000" expanded="true" signature="7744:9018" ph="{...}" />
-                <marker date="1542562140000" expanded="true" signature="7928:8145" ph="{...}" />
-                <marker date="1542562140000" expanded="true" signature="8252:8425" ph="{...}" />
-                <marker date="1542562140000" expanded="true" signature="8470:8736" ph="{...}" />
-                <marker date="1542562140000" expanded="false" signature="8783:8798" ph=" { " />
-                <marker date="1542562140000" expanded="false" signature="8831:8841" ph=" }" />
-                <marker date="1542562140000" expanded="true" signature="8916:9012" ph="{...}" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#2139#2156#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="logback.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="48" lean-forward="false" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="11" column="24" lean-forward="false" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="failed_payment" pinned="false" current-in-tab="true">
+        <entry file="das://table:/82313790/40588db5-50cf-4f06-9913-91e7eac7017c/payment_service.failed_payment">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
@@ -100,43 +116,64 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PaymentService.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/IdeaProjects/payment_repo/com/payment/service/dto/payment-dto/1.0-SNAPSHOT/payment-dto-1.0-SNAPSHOT.jar!/com/payment/service/dto/service/PaymentService.class">
+      <file leaf-file-name="KafkaTemplate.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/IdeaProjects/payment_repo/org/springframework/kafka/spring-kafka/2.1.0.RELEASE/spring-kafka-2.1.0.RELEASE.jar!/org/springframework/kafka/core/KafkaTemplate.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="15" column="12" lean-forward="false" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+            <state relative-caret-position="89">
+              <caret line="78" column="46" lean-forward="false" selection-start-line="78" selection-start-column="46" selection-end-line="78" selection-end-column="46" />
               <folding>
-                <marker date="1542807315000" expanded="false" signature="0:104" ph="/.../" />
-                <marker date="1542807315000" expanded="false" signature="155:216" ph="..." />
+                <marker date="1542562139000" expanded="false" signature="0:104" ph="/.../" />
+                <marker date="1542562139000" expanded="false" signature="154:1571" ph="..." />
+                <marker date="1542562139000" expanded="false" signature="2086:2097" ph=" { " />
+                <marker date="1542562139000" expanded="false" signature="2126:2132" ph=" }" />
+                <marker date="1542562139000" expanded="true" signature="2217:2605" ph="{...}" />
+                <marker date="1542562139000" expanded="false" signature="2642:2653" ph=" { " />
+                <marker date="1542562139000" expanded="false" signature="2678:2684" ph=" }" />
+                <marker date="1542562139000" expanded="false" signature="2738:2749" ph=" { " />
+                <marker date="1542562139000" expanded="false" signature="2782:2788" ph=" }" />
+                <marker date="1542562139000" expanded="true" signature="2867:2924" ph="{...}" />
+                <marker date="1542562139000" expanded="false" signature="2975:2986" ph=" { " />
+                <marker date="1542562139000" expanded="false" signature="3015:3021" ph=" }" />
+                <marker date="1542562139000" expanded="true" signature="3100:3157" ph="{...}" />
+                <marker date="1542562139000" expanded="true" signature="3224:3235" ph=" { " />
+                <marker date="1542562139000" expanded="true" signature="3277:3283" ph=" }" />
+                <marker date="1542562139000" expanded="true" signature="3358:3421" ph="{...}" />
+                <marker date="1542562139000" expanded="true" signature="3515:3589" ph="{...}" />
+                <marker date="1542562139000" expanded="true" signature="3699:3784" ph="{...}" />
+                <marker date="1542562139000" expanded="true" signature="3859:3989" ph="{...}" />
+                <marker date="1542562139000" expanded="true" signature="4071:4206" ph="{...}" />
+                <marker date="1542562139000" expanded="true" signature="4307:4453" ph="{...}" />
+                <marker date="1542562139000" expanded="true" signature="4570:4727" ph="{...}" />
+                <marker date="1542562139000" expanded="false" signature="4808:4819" ph=" { " />
+                <marker date="1542562139000" expanded="false" signature="4846:4852" ph=" }" />
+                <marker date="1542562139000" expanded="true" signature="4925:5085" ph="{...}" />
+                <marker date="1542562139000" expanded="true" signature="5146:5404" ph="{...}" />
+                <marker date="1542562139000" expanded="true" signature="5461:5707" ph="{...}" />
+                <marker date="1542562139000" expanded="true" signature="5770:6029" ph="{...}" />
+                <marker date="1542562139000" expanded="true" signature="6107:7064" ph="{...}" />
+                <marker date="1542562139000" expanded="true" signature="7090:7288" ph="{...}" />
+                <marker date="1542562139000" expanded="true" signature="7379:7477" ph="{...}" />
+                <marker date="1542562139000" expanded="true" signature="7592:7972" ph="{...}" />
+                <marker date="1542562139000" expanded="true" signature="8051:8125" ph="{...}" />
+                <marker date="1542562139000" expanded="true" signature="8226:10098" ph="{...}" />
+                <marker date="1542562139000" expanded="false" signature="8599:8700" ph="onCompletion(metadata, exception) → {" />
+                <marker date="1542562139000" expanded="false" signature="9872:9887" ph="}" />
+                <marker date="1542562139000" expanded="true" signature="10138:10255" ph="{...}" />
+                <marker date="1542562139000" expanded="true" signature="10301:10772" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user" pinned="false" current-in-tab="false">
-        <entry file="das://table:/82313790/40588db5-50cf-4f06-9913-91e7eac7017c/payment_service.user">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DataSourceConfig.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/payment/service/riskengine/config/DataSourceConfig.java">
+      <file leaf-file-name="PaymentRiskEngineApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/payment/service/riskengine/PaymentRiskEngineApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="44" column="17" lean-forward="false" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user_credentials" pinned="false" current-in-tab="false">
-        <entry file="das://table:/82313790/40588db5-50cf-4f06-9913-91e7eac7017c/payment_service.user_credentials">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
+            <state relative-caret-position="120">
+              <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+              <folding>
+                <element signature="e#614#615#0" expanded="true" />
+                <element signature="e#684#685#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -156,6 +193,9 @@
       <find>UUID</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
@@ -166,15 +206,20 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/payment/service/riskengine/RiskValidator.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/payment/service/riskengine/config/DataSourceConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/payment/service/riskengine/riskengine/RiskValidator.java" />
         <option value="$PROJECT_DIR$/src/main/resources/logback.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/payment/service/riskengine/PaymentRiskEngineApplication.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/payment/service/riskengine/config/JsonDeserializer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/payment/service/riskengine/config/Receiver.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/payment/service/riskengine/config/PaymentDeserializer.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/payment/service/riskengine/riskengine/RiskValidator.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/40588db5-50cf-4f06-9913-91e7eac7017c/console.sql" />
         <option value="$PROJECT_DIR$/src/main/java/com/payment/service/riskengine/config/ReceiverConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/payment/service/riskengine/PaymentRiskEngineApplication.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/payment/service/riskengine/RiskEngineTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/payment/service/riskengine/SpringKafkaReceiverTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/payment/service/riskengine/config/PaymentKafkaReceiver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/payment/service/riskengine/riskengine/PaymentRiskValidator.java" />
       </list>
     </option>
   </component>
@@ -296,19 +341,6 @@
             </path>
             <path>
               <item name="riskengine" type="b2602c69:ProjectViewProjectNode" />
-              <item name="riskengine" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="riskengine" type="b2602c69:ProjectViewProjectNode" />
-              <item name="riskengine" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="riskengine" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
             <path>
@@ -372,6 +404,14 @@
               <item name="Maven: org.springframework.kafka:spring-kafka:2.1.0.RELEASE" type="70bed36:NamedLibraryElementNode" />
               <item name="spring-kafka-2.1.0.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
               <item name="kafka" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="riskengine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.kafka:spring-kafka:2.1.0.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-kafka-2.1.0.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="riskengine" type="b2602c69:ProjectViewProjectNode" />
@@ -589,6 +629,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="RequestMappingsPanelOrder2" value="2" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -611,7 +652,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.PaymentRiskEngineApplication">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -631,6 +672,31 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
+    </configuration>
+    <configuration name="SpringKafkaReceiverTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.payment.service.riskengine.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="riskengine" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.payment.service.riskengine" />
+      <option name="MAIN_CLASS_NAME" value="com.payment.service.riskengine.SpringKafkaReceiverTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -703,9 +769,14 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Spring Boot.PaymentRiskEngineApplication" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.SpringKafkaReceiverTest" />
+    </list>
     <recent_temporary>
-      <list size="1">
+      <list size="2">
         <item index="0" class="java.lang.String" itemvalue="Spring Boot.PaymentRiskEngineApplication" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.SpringKafkaReceiverTest" />
       </list>
     </recent_temporary>
   </component>
@@ -730,15 +801,21 @@
       <workItem from="1542480745731" duration="5253000" />
       <workItem from="1542540094595" duration="142000" />
       <workItem from="1542540319849" duration="484000" />
-      <workItem from="1542540863127" duration="34526000" />
+      <workItem from="1542540863127" duration="43687000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="SpringKafkaReceiverTest - 2018.11.22 at 13h 36m 33s.xml">
+      <configuration name="SpringKafkaReceiverTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40405000" />
+    <option name="totallyTimeSpent" value="49566000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1440" height="797" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -759,7 +836,8 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5655376" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2532189" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -789,21 +867,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/payment/service/riskengine/config/Receiver.java</url>
-          <line>34</line>
+          <url>file://$PROJECT_DIR$/src/main/java/com/payment/service/riskengine/config/PaymentKafkaReceiver.java</url>
+          <line>49</line>
           <properties />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/payment/service/riskengine/config/ReceiverConfig.java</url>
-          <line>86</line>
-          <properties />
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/payment/service/riskengine/config/ReceiverConfig.java</url>
-          <line>66</line>
-          <properties />
-          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
       <option name="time" value="7" />
@@ -811,29 +877,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1245">
-          <caret line="83" column="0" lean-forward="false" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/payment/service/riskengine/riskengine/RiskValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding>
-            <element signature="e#186#187#0" expanded="false" />
-            <element signature="e#213#214#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/IdeaProjects/payment_repo/com/payment/service/dto/payment-dto/1.0-SNAPSHOT/payment-dto-1.0-SNAPSHOT.jar!/com/payment/service/dto/dao/UserDaoImpl.class" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/payment/service/riskengine/PaymentRiskEngineApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -860,14 +903,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/payment/service/riskengine/config/Receiver.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/payment/service/riskengine/config/PaymentKafkaReceiver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="24" column="47" lean-forward="false" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#874#875#0" expanded="true" />
-            <element signature="e#902#903#0" expanded="true" />
+            <element signature="e#1238#1239#0" expanded="true" />
+            <element signature="e#1266#1267#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -900,13 +943,13 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/payment/service/riskengine/riskengine/RiskValidator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/payment/service/riskengine/riskengine/PaymentRiskValidator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding>
-            <element signature="e#186#187#0" expanded="false" />
-            <element signature="e#213#214#0" expanded="false" />
+            <element signature="e#385#386#0" expanded="false" />
+            <element signature="e#538#539#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -938,14 +981,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/payment/service/riskengine/config/Receiver.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/payment/service/riskengine/config/PaymentKafkaReceiver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="24" column="47" lean-forward="false" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#874#875#0" expanded="true" />
-            <element signature="e#902#903#0" expanded="true" />
+            <element signature="e#1238#1239#0" expanded="true" />
+            <element signature="e#1266#1267#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -981,22 +1024,22 @@
         <state relative-caret-position="120">
           <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
           <folding>
-            <marker date="1542807315000" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1542807315000" expanded="false" signature="155:438" ph="..." />
-            <marker date="1542807315000" expanded="true" signature="440:463" ph="@{...}" />
-            <marker date="1542807315000" expanded="true" signature="607:614" ph="{}" />
-            <marker date="1542807315000" expanded="true" signature="661:740" ph="{...}" />
-            <marker date="1542807315000" expanded="false" signature="783:794" ph=" { " />
-            <marker date="1542807315000" expanded="false" signature="831:837" ph=" }" />
-            <marker date="1542807315000" expanded="true" signature="899:1065" ph="{...}" />
-            <marker date="1542807315000" expanded="false" signature="1113:1124" ph=" { " />
-            <marker date="1542807315000" expanded="false" signature="1180:1186" ph=" }" />
-            <marker date="1542807315000" expanded="false" signature="1235:1246" ph=" { " />
-            <marker date="1542807315000" expanded="false" signature="1280:1286" ph=" }" />
-            <marker date="1542807315000" expanded="false" signature="1347:1358" ph=" { " />
-            <marker date="1542807315000" expanded="false" signature="1410:1416" ph=" }" />
-            <marker date="1542807315000" expanded="false" signature="1477:1488" ph=" { " />
-            <marker date="1542807315000" expanded="false" signature="1540:1546" ph=" }" />
+            <marker date="1542890997000" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1542890997000" expanded="false" signature="155:438" ph="..." />
+            <marker date="1542890997000" expanded="true" signature="440:463" ph="@{...}" />
+            <marker date="1542890997000" expanded="true" signature="607:614" ph="{}" />
+            <marker date="1542890997000" expanded="true" signature="661:740" ph="{...}" />
+            <marker date="1542890997000" expanded="false" signature="783:794" ph=" { " />
+            <marker date="1542890997000" expanded="false" signature="831:837" ph=" }" />
+            <marker date="1542890997000" expanded="true" signature="899:1065" ph="{...}" />
+            <marker date="1542890997000" expanded="false" signature="1113:1124" ph=" { " />
+            <marker date="1542890997000" expanded="false" signature="1180:1186" ph=" }" />
+            <marker date="1542890997000" expanded="false" signature="1235:1246" ph=" { " />
+            <marker date="1542890997000" expanded="false" signature="1280:1286" ph=" }" />
+            <marker date="1542890997000" expanded="false" signature="1347:1358" ph=" { " />
+            <marker date="1542890997000" expanded="false" signature="1410:1416" ph=" }" />
+            <marker date="1542890997000" expanded="false" signature="1477:1488" ph=" { " />
+            <marker date="1542890997000" expanded="false" signature="1540:1546" ph=" }" />
           </folding>
         </state>
       </provider>
@@ -1016,30 +1059,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="89">
           <caret line="348" column="0" lean-forward="false" selection-start-line="348" selection-start-column="0" selection-end-line="348" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/40588db5-50cf-4f06-9913-91e7eac7017c/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="48" lean-forward="false" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/payment/service/riskengine/riskengine/RiskValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1092,42 +1111,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/payment/service/riskengine/PaymentRiskEngineApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="18" column="63" lean-forward="false" selection-start-line="18" selection-start-column="63" selection-end-line="18" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/payment/service/riskengine/config/PaymentDeserializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/payment/service/riskengine/config/ReceiverConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="das://table:/82313790/40588db5-50cf-4f06-9913-91e7eac7017c/payment_service.paymentmethod">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -1163,17 +1146,6 @@
         <state relative-caret-position="185">
           <caret line="518" column="0" lean-forward="false" selection-start-line="518" selection-start-column="0" selection-end-line="518" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/IdeaProjects/payment_repo/com/payment/service/dto/payment-dto/1.0-SNAPSHOT/payment-dto-1.0-SNAPSHOT.jar!/com/payment/service/dto/service/PaymentService.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="15" column="12" lean-forward="false" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
-          <folding>
-            <marker date="1542807315000" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1542807315000" expanded="false" signature="155:216" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1218,14 +1190,173 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/payment/service/riskengine/config/Receiver.java">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/40588db5-50cf-4f06-9913-91e7eac7017c/console.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="41" lean-forward="false" selection-start-line="0" selection-start-column="41" selection-end-line="0" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/IdeaProjects/payment_repo/com/payment/service/dto/payment-dto/1.0-SNAPSHOT/payment-dto-1.0-SNAPSHOT.jar!/com/payment/service/dto/service/PaymentService.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="15" column="12" lean-forward="false" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+          <folding>
+            <marker date="1542890997000" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1542890997000" expanded="false" signature="155:216" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/payment/service/riskengine/config/PaymentDeserializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/payment/service/riskengine/config/DataSourceConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="43" column="43" lean-forward="false" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/payment/service/riskengine/config/ReceiverConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/IdeaProjects/payment_repo/org/springframework/kafka/spring-kafka/2.1.0.RELEASE/spring-kafka-2.1.0.RELEASE.jar!/org/springframework/kafka/core/KafkaTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="78" column="46" lean-forward="false" selection-start-line="78" selection-start-column="46" selection-end-line="78" selection-end-column="46" />
+          <folding>
+            <marker date="1542562139000" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1542562139000" expanded="false" signature="154:1571" ph="..." />
+            <marker date="1542562139000" expanded="false" signature="2086:2097" ph=" { " />
+            <marker date="1542562139000" expanded="false" signature="2126:2132" ph=" }" />
+            <marker date="1542562139000" expanded="true" signature="2217:2605" ph="{...}" />
+            <marker date="1542562139000" expanded="false" signature="2642:2653" ph=" { " />
+            <marker date="1542562139000" expanded="false" signature="2678:2684" ph=" }" />
+            <marker date="1542562139000" expanded="false" signature="2738:2749" ph=" { " />
+            <marker date="1542562139000" expanded="false" signature="2782:2788" ph=" }" />
+            <marker date="1542562139000" expanded="true" signature="2867:2924" ph="{...}" />
+            <marker date="1542562139000" expanded="false" signature="2975:2986" ph=" { " />
+            <marker date="1542562139000" expanded="false" signature="3015:3021" ph=" }" />
+            <marker date="1542562139000" expanded="true" signature="3100:3157" ph="{...}" />
+            <marker date="1542562139000" expanded="true" signature="3224:3235" ph=" { " />
+            <marker date="1542562139000" expanded="true" signature="3277:3283" ph=" }" />
+            <marker date="1542562139000" expanded="true" signature="3358:3421" ph="{...}" />
+            <marker date="1542562139000" expanded="true" signature="3515:3589" ph="{...}" />
+            <marker date="1542562139000" expanded="true" signature="3699:3784" ph="{...}" />
+            <marker date="1542562139000" expanded="true" signature="3859:3989" ph="{...}" />
+            <marker date="1542562139000" expanded="true" signature="4071:4206" ph="{...}" />
+            <marker date="1542562139000" expanded="true" signature="4307:4453" ph="{...}" />
+            <marker date="1542562139000" expanded="true" signature="4570:4727" ph="{...}" />
+            <marker date="1542562139000" expanded="false" signature="4808:4819" ph=" { " />
+            <marker date="1542562139000" expanded="false" signature="4846:4852" ph=" }" />
+            <marker date="1542562139000" expanded="true" signature="4925:5085" ph="{...}" />
+            <marker date="1542562139000" expanded="true" signature="5146:5404" ph="{...}" />
+            <marker date="1542562139000" expanded="true" signature="5461:5707" ph="{...}" />
+            <marker date="1542562139000" expanded="true" signature="5770:6029" ph="{...}" />
+            <marker date="1542562139000" expanded="true" signature="6107:7064" ph="{...}" />
+            <marker date="1542562139000" expanded="true" signature="7090:7288" ph="{...}" />
+            <marker date="1542562139000" expanded="true" signature="7379:7477" ph="{...}" />
+            <marker date="1542562139000" expanded="true" signature="7592:7972" ph="{...}" />
+            <marker date="1542562139000" expanded="true" signature="8051:8125" ph="{...}" />
+            <marker date="1542562139000" expanded="true" signature="8226:10098" ph="{...}" />
+            <marker date="1542562139000" expanded="false" signature="8599:8700" ph="onCompletion(metadata, exception) → {" />
+            <marker date="1542562139000" expanded="false" signature="9872:9887" ph="}" />
+            <marker date="1542562139000" expanded="true" signature="10138:10255" ph="{...}" />
+            <marker date="1542562139000" expanded="true" signature="10301:10772" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/payment/service/riskengine/RiskEngineTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="17" column="25" lean-forward="false" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/payment/service/riskengine/SpringKafkaReceiverTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#874#875#0" expanded="true" />
-            <element signature="e#902#903#0" expanded="true" />
+            <element signature="e#2139#2156#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="48" lean-forward="false" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="11" column="24" lean-forward="false" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/payment/service/riskengine/PaymentRiskEngineApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+          <folding>
+            <element signature="e#614#615#0" expanded="true" />
+            <element signature="e#684#685#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/IdeaProjects/payment_repo/com/payment/service/dto/payment-dto/1.0-SNAPSHOT/payment-dto-1.0-SNAPSHOT.jar!/com/payment/service/dto/service/FailedPaymentService.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="15" column="12" lean-forward="false" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+          <folding>
+            <marker date="1542890997000" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1542890997000" expanded="false" signature="155:185" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/payment/service/riskengine/riskengine/PaymentRiskValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="9" column="70" lean-forward="false" selection-start-line="9" selection-start-column="70" selection-end-line="9" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/payment/service/riskengine/config/PaymentKafkaReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1238#1239#0" expanded="true" />
+            <element signature="e#1266#1267#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1237,11 +1368,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/payment/service/riskengine/config/DataSourceConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="44" column="17" lean-forward="false" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
-          <folding />
+    <entry file="das://table:/82313790/40588db5-50cf-4f06-9913-91e7eac7017c/payment_service.failed_payment">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>

@@ -10,9 +10,7 @@ import org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfigurat
 @EnableAutoConfiguration(exclude={KafkaAutoConfiguration.class})
 public class PaymentRiskEngineApplication {
 
-
 	public static void main(String[] args) {
-
 		SpringApplication.run(PaymentRiskEngineApplication.class, args);
 	}
 }
