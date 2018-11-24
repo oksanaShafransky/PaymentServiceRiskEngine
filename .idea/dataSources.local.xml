@@ -11,5 +11,10 @@
       <user-name>root</user-name>
       <introspection-schemas>*:payment_service</introspection-schemas>
     </data-source>
+    <data-source name="@localhost" uuid="fe88e584-c9e9-4ebf-8454-f564975a7224">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+      <secret-storage>master_key</secret-storage>
+      <first-sync>true</first-sync>
+    </data-source>
   </component>
 </project>

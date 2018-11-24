@@ -3,17 +3,28 @@ package com.payment.service.riskengine.riskengine;
 import com.payment.service.dto.beans.Payment;
 import com.payment.service.riskengine.config.PaymentKafkaReceiver;
 
+import java.util.Random;
 import java.util.concurrent.atomic.AtomicInteger;
 
+/**
+ * This class calculates if the payment is valid
+ */
 public class PaymentRiskValidator {
 
-    private static AtomicInteger PAYMENT_COUNTER = new AtomicInteger(0);
-
+    private static Random random = new Random();
+    /**
+     * This method assumes uniform distribution of random number
+     * to get 70% of payments
+     * @param payment
+     * @return
+     */
     public static boolean isPaymentValid(Payment payment){
-        PAYMENT_COUNTER.getAndIncrement();
-        if((PAYMENT_COUNTER.get()*100)%70==0){
+        int n = random.nextInt(10) / 7;
+        if(n>0) {
             return false;
         }
         return true;
     }
+
+
 }

@@ -58,8 +58,8 @@ public class PaymentKafkaReceiver {
         } else {
             FailedPayment failedPayment = new FailedPayment();
             failedPayment.copyFromPayment(payment);
-            failedPayment.setPaymentstatus(PaymentStatus.FAILED.name());
-            failedPayment.setRisk(RiskLevel.HIGH.name());
+            failedPayment.setPaymentstatus(PaymentStatus.FAILED.name().toString());
+            failedPayment.setRisk(RiskLevel.HIGH.name().toString());
             failedPaymentService.addPayment(failedPayment);
         }
     }

@@ -1147,21 +1147,21 @@
       <DataType>varchar(50)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="288" parent="277" name="amount">
+    <column id="288" parent="277" name="paymentnumber">
       <Position>6</Position>
+      <DataType>varchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="289" parent="277" name="amount">
+      <Position>7</Position>
       <DataType>float|0</DataType>
       <DefaultExpression>&apos;0&apos;</DefaultExpression>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="289" parent="277" name="currency">
-      <Position>7</Position>
-      <DataType>varchar(20)|0</DataType>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="290" parent="277" name="risk">
+    <column id="290" parent="277" name="currency">
       <Position>8</Position>
-      <DataType>int(4)|0</DataType>
-      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <DataType>varchar(20)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="291" parent="277" name="paymentdate">
@@ -1170,10 +1170,10 @@
       <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="292" parent="277" name="paymentnumber">
+    <column id="292" parent="277" name="risk">
       <Position>10</Position>
-      <DataType>varchar(50)|0</DataType>
-      <NotNull>1</NotNull>
+      <DataType>varchar(20)|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="293" parent="277" name="paymentstatus">
@@ -1331,55 +1331,65 @@
       <DataType>varchar(64)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="324" parent="281" name="usermail">
+    <column id="324" parent="281" name="userpassword">
       <Position>3</Position>
+      <DataType>varchar(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="325" parent="281" name="usermail">
+      <Position>4</Position>
       <DataType>varchar(64)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="325" parent="281" name="user_userid_uindex">
+    <column id="326" parent="281" name="useraddress">
+      <Position>5</Position>
+      <DataType>varchar(255)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="327" parent="281" name="user_userid_uindex">
       <ColNames>userid</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="326" parent="281" name="PRIMARY">
+    <key id="328" parent="281" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>userid</ColNames>
       <Primary>1</Primary>
     </key>
-    <key id="327" parent="281" name="user_userid_uindex">
+    <key id="329" parent="281" name="user_userid_uindex">
       <ColNames>userid</ColNames>
       <UnderlyingIndexName>user_userid_uindex</UnderlyingIndexName>
     </key>
-    <column id="328" parent="282" name="userid">
+    <column id="330" parent="282" name="userid">
       <Position>1</Position>
       <DataType>varchar(255)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="329" parent="282" name="paymentmethodid">
+    <column id="331" parent="282" name="paymentmethodid">
       <Position>2</Position>
       <DataType>varchar(255)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="330" parent="282" name="paymentnumber">
+    <column id="332" parent="282" name="paymentnumber">
       <Position>3</Position>
       <DataType>varchar(255)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="331" parent="282" name="user_credentials_user_userid_fk">
+    <index id="333" parent="282" name="user_credentials_user_userid_fk">
       <ColNames>userid</ColNames>
     </index>
-    <index id="332" parent="282" name="user_credentials_paymentmethod_paymentmethodid_fk">
+    <index id="334" parent="282" name="user_credentials_paymentmethod_paymentmethodid_fk">
       <ColNames>paymentmethodid</ColNames>
     </index>
-    <foreign-key id="333" parent="282" name="user_credentials_user_userid_fk">
+    <foreign-key id="335" parent="282" name="user_credentials_user_userid_fk">
       <ColNames>userid</ColNames>
       <RefSchemaName>payment_service</RefSchemaName>
       <RefTableName>user</RefTableName>
       <RefColNames>userid</RefColNames>
     </foreign-key>
-    <foreign-key id="334" parent="282" name="user_credentials_paymentmethod_paymentmethodid_fk">
+    <foreign-key id="336" parent="282" name="user_credentials_paymentmethod_paymentmethodid_fk">
       <ColNames>paymentmethodid</ColNames>
       <RefSchemaName>payment_service</RefSchemaName>
       <RefTableName>paymentmethod</RefTableName>
